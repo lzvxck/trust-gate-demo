@@ -8,3 +8,5 @@ GitHub Actions run and a real pull request.
 It has nothing to do with trust-gate's own build -- trust-gate's own test suite
 runs on `bun test`, but the impact/coverage engine it ships is built to gate
 `vitest`-based target repos, so this repo is that target.
+
+Testing webhook + Checks API integration.
