@@ -1,0 +1,10 @@
+name: Trust Gate Regression Check
+
+on:
+  pull_request:
+
+jobs:
+  trust-gate:
+    uses: lzvxck/trust-gate/.github/workflows/regression-check.yml@main
+    with:
+      base-ref: ${{ github.event.pull_request.base.ref }}
